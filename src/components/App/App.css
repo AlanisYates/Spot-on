@@ -2,6 +2,7 @@ body,
 html,
 #root {
   height: 100%;
+  background: rgb(95, 95, 95);
 }
 
 html {
@@ -28,8 +29,8 @@ h2 {
 
 .App {
   height: 100%;
-  padding: 0 17% 10% 17%;
-  background-image: url('./background_photo_desktop.jpg');
+  padding: 1% 5%;
+  /* background-image: url('./background_photo_desktop.jpg'); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -63,7 +63,7 @@ export class App extends Component {
   render() {
     return (
       <div>
-        <h1>Spot<span className="highlight">-</span>On</h1>
+        {/* <h1>Spot<span className="highlight">-</span>On</h1> */}
         <div className="App">
           <SearchBar onSearch={this.search} />
           <div className="App-playlist">
