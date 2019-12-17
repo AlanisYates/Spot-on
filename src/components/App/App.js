@@ -62,11 +62,11 @@ export class App extends Component {
     return (
       <div>
         <div className="App">
-          <div class="search-bar">
+          <div className="search-bar">
             {/* <h1>Spot-On</h1> */}
             <SearchBar onSearch={this.search} />
           </div>
-          <div class="search-results">
+          <div className="search-results">
             <SearchResults
               searchResults={this.state.searchResults}
               onAdd={this.addTrack}
