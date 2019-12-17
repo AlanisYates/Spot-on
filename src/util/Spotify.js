@@ -1,6 +1,6 @@
 
-const clientId = "3b482ab9b26444558d6287d1c30223a9";
-const redirectUri = "http://Spot-on.surge.sh"
+const clientId = "8609311b5d4a43068f743a107d162330";
+const redirectUri = "http://localhost:3000"
 let accessToken;
 
 const Spotify = {

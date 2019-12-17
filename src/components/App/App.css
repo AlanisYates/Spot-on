@@ -1,53 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body,
 html,
 #root {
-  height: 100%;
-  background: rgb(95, 95, 95);
+  height: 100vh;
+  background: #c90101;
 }
 
 html {
   font-size: 18px;
 }
 
-h1 {
-  padding: .77rem 0;
-  background-color: #010c3f;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.88rem;
-  color: #fff;
-}
-
-h1 .highlight {
-  color: #6c41ec;
-}
-
-h2 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.55rem;
-}
-
 .App {
-  height: 100%;
-  padding: 1% 5%;
-  /* background-image: url('./background_photo_desktop.jpg'); */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 500;
-  color: #fff;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 10px;
+      grid-template-areas: "sb sb pl" "sr sr pl";
 }
 
-.App-playlist {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+.App .search-bar {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: sb;
+  width: 70vw;
+  height: 20vh;
+  background: royalblue;
 }
 
-@media only screen and (max-width: 1020px) {
-  .App-playlist {
-    align-items: center;
-    flex-direction: column;
-  }
+.App .search-results {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: sr;
+  width: 70vw;
+  height: 80vh;
+  background: purple;
 }
+
+.App .app-playlist {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 3;
+  grid-area: pl;
+  width: 30vw;
+  height: 100vh;
+  background: #008060;
+}
+/*# sourceMappingURL=App.css.map */
