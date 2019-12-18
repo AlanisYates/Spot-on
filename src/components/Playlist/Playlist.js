@@ -13,7 +13,7 @@ export class Playlist extends Component {
     render() {
         return (
             <div className="Playlist">
-                <input defaultValue={'New Playlist'} onChange={this.handleNameChange} />
+                <input defaultValue={'NEW PLAYLIST'} onChange={this.handleNameChange} />
                 <TrackList tracks={this.props.playlistTracks}
                 onRemove={this.props.onRemove}
                 isRemoval={true} />

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Icon from "../logoIcon/logoIcon";
 import "./SearchBar.css";
 
 export class SearchBar extends Component {
@@ -29,7 +30,11 @@ export class SearchBar extends Component {
   render() {
     return (
       <div className="SearchBar">
-          <h1>Spot-On</h1>
+        <div className="logo">
+          <Icon
+          fill="#fff"
+          />
+        </div>
         <input
           onChange={this.handleTermChange}
           onKeyPress={this.handleKeyPress}
