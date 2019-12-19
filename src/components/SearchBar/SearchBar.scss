@@ -1,13 +1,16 @@
 .SearchBar {
   height: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   padding: 10px 0px;
+ 
 }
 
 .logo {
+  width: auto;
   height: 100%;
+
 }
 
 .SearchButton {
@@ -15,11 +18,12 @@
 }
 
 .SearchBar input {
-  width: 913px;
+  width: 80%;
   height: 65px;
   color: #2e2e2e;
   text-align: center;
   font-size: 1.5rem;
+  margin-left: 40px;
   background-color: #ffffff;
   border: none;
   box-shadow: 0px 5px 4px rgba(255, 255, 255, 0.09);

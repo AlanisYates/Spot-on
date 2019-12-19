@@ -3,9 +3,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -13,6 +13,7 @@
 }
 
 .logo {
+  width: auto;
   height: 100%;
 }
 
@@ -21,11 +22,12 @@
 }
 
 .SearchBar input {
-  width: 913px;
+  width: 80%;
   height: 65px;
   color: #2e2e2e;
   text-align: center;
   font-size: 1.5rem;
+  margin-left: 40px;
   background-color: #ffffff;
   border: none;
   -webkit-box-shadow: 0px 5px 4px rgba(255, 255, 255, 0.09);
