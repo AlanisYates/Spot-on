@@ -73,6 +73,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin: 0;
   }
   .SearchBar input {
     width: 80%;
@@ -82,6 +83,7 @@
     color: #2e2e2e;
     text-align: center;
     font-size: 1.2rem;
+    margin-left: 0;
     background-color: #ffffff;
     border: none;
     -webkit-box-shadow: 0px 5px 4px rgba(255, 255, 255, 0.09);
