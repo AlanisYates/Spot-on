@@ -31,6 +31,7 @@ html {
   -ms-grid-column-span: 2;
   grid-area: sb;
   width: 70vw;
+  height: 20vh;
 }
 
 .App .search-results {
@@ -39,8 +40,8 @@ html {
   -ms-grid-column-span: 2;
   grid-area: sr;
   width: 70vw;
-  height: 90vh;
-  padding: 0% 1%;
+  height: 80vh;
+  padding: 0 .5%;
 }
 
 .App .app-playlist {
@@ -57,7 +58,7 @@ h2 {
   font-size: 1.55rem;
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1100px) {
   .App {
     width: 100vw;
     display: -ms-grid;
@@ -69,18 +70,21 @@ h2 {
     -ms-grid-column: 1;
     grid-area: sb;
     width: 100vw;
+    height: 100%;
   }
   .App .search-results {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
     grid-area: sr;
     width: 100vw;
+    height: 100%;
   }
   .App .app-playlist {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     grid-area: pl;
     width: 100vw;
+    height: 100vh;
   }
 }
 /*# sourceMappingURL=App.css.map */

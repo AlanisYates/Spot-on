@@ -26,13 +26,14 @@ html {
   .search-bar {
     grid-area: sb;
     width: 70vw;
+    height: 20vh;
   }
 
   .search-results {
     grid-area: sr;
     width: 70vw;
-    height: 90vh;
-    padding: 0% 1%;
+    height: 80vh;
+    padding: 0 .5%;
   }
 
   .app-playlist {
@@ -48,7 +49,7 @@ h2 {
 }
 
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1100px) {
   .App {
     width: 100vw;
     display: grid;
@@ -60,16 +61,19 @@ h2 {
     .search-bar {
       grid-area: sb;
       width: 100vw;
+      height: 100%;
     }
 
     .search-results {
       grid-area: sr;
       width: 100vw;
+      height: 100%;
     }
 
     .app-playlist {
       grid-area: pl;
       width: 100vw;
+      height: 100vh;
     }
   }
 }
