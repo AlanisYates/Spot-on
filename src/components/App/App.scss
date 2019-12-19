@@ -26,7 +26,6 @@ html {
   .search-bar {
     grid-area: sb;
     width: 70vw;
-    height: 10vh;
   }
 
   .search-results {
@@ -52,22 +51,24 @@ h2 {
 @media only screen and (max-width: 1020px) {
   .App {
     width: 100vw;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     grid-template-areas:
       "sb"
       "sr"
       "pl";
 
     .search-bar {
+      grid-area: sb;
       width: 100vw;
     }
 
     .search-results {
+      grid-area: sr;
       width: 100vw;
     }
 
     .app-playlist {
+      grid-area: pl;
       width: 100vw;
     }
   }

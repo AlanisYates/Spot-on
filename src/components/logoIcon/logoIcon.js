@@ -1,15 +1,11 @@
 import React from "react";
 
 const SVG = ({
-  style = {},
-  fill = "#000",
-  width = "100%",
-  className = "",
-  viewBox = "0 0 32 32"
+
 }) => (
   <svg
-    width="193"
-    height="115"
+    width="200"
+    height="200"
     viewBox="0 0 193 115"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"

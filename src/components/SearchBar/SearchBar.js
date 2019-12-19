@@ -30,11 +30,9 @@ export class SearchBar extends Component {
   render() {
     return (
       <div className="SearchBar">
-        <div className="logo">
-          <Icon
+          <Icon className="logo"
           fill="#fff"
           />
-        </div>
         <input
           onChange={this.handleTermChange}
           onKeyPress={this.handleKeyPress}

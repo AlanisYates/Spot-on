@@ -2,12 +2,11 @@
     display: flex;
     align-items: center;
     border-bottom: 2px solid rgba(256, 256, 256, 0.7);
-    /* border-radius: 20px; */
   }
   
   .Track-action {
     cursor: pointer;
-    padding: .5rem;
+    padding: .5rem 0;
     font-size: 2.5rem;
     transition: color .25s;
     border: 0px;
@@ -25,7 +24,6 @@
     align-items: left;
     flex-direction: column;
     justify-content: center;
-    height: 72px;
   }
   
   .Track-information h3 {
@@ -38,6 +36,14 @@
     color: rgba(256, 256, 256, 0.8);
   }
 
-  .Track:hover{
-
+  @media only screen and (max-width: 1020px) {
+    .Track-information h3 {
+      font-size: 1rem;
+    }
+    
+    .Track-information p {
+      font-size: .9rem;
+      font-weight: 300;
+      color: rgba(256, 256, 256, 0.8);
+    }
   }
