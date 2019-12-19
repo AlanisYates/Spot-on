@@ -12,8 +12,8 @@ export class Playlist extends Component {
     }
     render() {
         return (
-            <div className="Playlist">
-                <input defaultValue={'NEW PLAYLIST'} onChange={this.handleNameChange} />
+            <div className="Playlist slide-in-right slide-in-bottom">
+                <input placeholder={'New Playlist'} onChange={this.handleNameChange} />
                 <TrackList tracks={this.props.playlistTracks}
                 onRemove={this.props.onRemove}
                 isRemoval={true} />

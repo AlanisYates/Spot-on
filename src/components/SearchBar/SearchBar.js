@@ -29,7 +29,7 @@ export class SearchBar extends Component {
 
   render() {
     return (
-      <div className="SearchBar">
+      <div className="SearchBar fade-in ">
           <Icon className="logo"
           fill="#fff"
           />
